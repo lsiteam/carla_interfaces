@@ -1,0 +1,6 @@
+int64 n_vehicles 30                 # Number of vehicles to spawn in world
+int64 n_walkers 10                  # Number of walkers to spawn in world
+int64 random_seed_vehicles          # Vehicle random seed for random generator
+int64 random_seed_walkers           # Walker random seed for random generator
+---
+bool result

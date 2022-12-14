@@ -1,0 +1,15 @@
+uint8 NONE=0
+uint8 BUILDINGS=1
+uint8 DECALS=2
+uint8 FOLIAGE=3
+uint8 GROUND=4
+uint8 PARKED_VEHICLES=5
+uint8 PARTICLES=6
+uint8 PROPS=7
+uint8 STREET_LIGHTS=8
+uint8 WALLS=9
+uint8 ALL=10
+
+uint8 layer 0
+---
+bool result
