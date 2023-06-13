@@ -1,2 +1,3 @@
+# This service is used to reset the initial vehicle position inside the carla world
 ---
-bool result
+bool result # Result of the process
