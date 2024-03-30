@@ -12,11 +12,14 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 set(msg_files
   "msg/CarlaSimulationInfo.msg"
   "msg/CarlaVehicleControl.msg"
+  "msg/CarlaTrafficLight.msg"
+  "msg/CarlaTrafficLightsInfo.msg"
   "srv/CarlaSpawnTraffic.srv"
   "srv/CarlaCleanTraffic.srv"
   "srv/CarlaChangeWeather.srv"
@@ -26,7 +29,7 @@ set(msg_files
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
-  DEPENDENCIES std_msgs geometry_msgs
+  DEPENDENCIES std_msgs geometry_msgs sensor_msgs
   ADD_LINTER_TESTS
 )
 
