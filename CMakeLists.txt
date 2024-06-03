@@ -20,6 +20,7 @@ set(msg_files
   "msg/CarlaVehicleControl.msg"
   "msg/CarlaTrafficLight.msg"
   "msg/CarlaTrafficLightsInfo.msg"
+  "msg/CarlaActorId.msg"
   "srv/CarlaSpawnTraffic.srv"
   "srv/CarlaCleanTraffic.srv"
   "srv/CarlaChangeWeather.srv"
