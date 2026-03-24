@@ -11,6 +11,11 @@ uint8 STREET_LIGHTS=8
 uint8 WALLS=9
 uint8 ALL=10
 
-uint8 layer 0 # Layer to change
+uint8 LOAD=0
+uint8 UNLOAD=0
+
+uint8 layer 0   # Layer to change
+uint8 action 0  # Load or unload layer
 ---
 bool result   # Result of the process
+string message

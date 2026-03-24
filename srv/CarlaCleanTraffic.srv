@@ -1,3 +1,4 @@
 # This service is used to clearn the traffic spawned in Carla simulator from ROS
 ---
 bool result
+string message

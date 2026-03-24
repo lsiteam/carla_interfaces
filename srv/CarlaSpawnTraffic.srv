@@ -1,7 +1,9 @@
 # This service is used to spawn traffic in carla simulator from ROS
 int64 n_vehicles 30        # Number of vehicles to spawn in world
 int64 n_walkers 10         # Number of walkers to spawn in world
-int64 random_seed_vehicles # Vehicle random seed for random generator
-int64 random_seed_walkers  # Walker random seed for random generator
+int64 random_seed          # Random seed for random generator
+bool hybrid_mode true      # Optimized hybrid mode for vehicle dynamics
+float32 hybrid_radius 50.0 # Radius for hero vehicle in hybrid mode
 ---
 bool result                # Result of the process
+string message
